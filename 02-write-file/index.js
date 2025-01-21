@@ -23,5 +23,3 @@ process.addListener('SIGINT', () => {
   console.log('Goodbye!');
   process.exit(0);
 });
-
-process.stdin.pipe(writeStream);
